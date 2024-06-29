@@ -1,0 +1,66 @@
+{
+  "name": "bekzotovich12",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.13.6",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.6.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "emoji-mart": "^5.5.2",
+    "express": "^4.18.2",
+    "framer-motion": "^10.12.12",
+    "i18next": "^23.2.11",
+    "node-fetch": "^3.3.2",
+    "react": "^18.2.0",
+    "react-countup": "^6.4.2",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^9.0.10",
+    "react-icons": "^4.8.0",
+    "react-iframe": "^1.8.5",
+    "react-intersection-observer": "^9.4.3",
+    "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
+    "react-type-animation": "^3.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start-server": "concurrently \"npm run start\" \"npx nodemon server.js\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.3",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.1",
+    "tailwindcss": "^3.3.2"
+  }
+}
